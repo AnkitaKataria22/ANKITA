@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
+}
+a{
+    text-decoration: none;
+}
+/* navbar section */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(127,27,27);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display:flex;
+    list-style:none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: thistle;
+    color: black;
+    box-shadow: 0  0 10px;
+}
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* height: 840px; */
+}
+#home::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:url('bg4.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1; 
+}
+.main{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.headings{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+   
+
+}
+.headings span{
+    color: #fd4766;
+}
+.main p{
+    width: 55%;
+    color: #757575;
+    
+    margin-top: 25px;
+    margin-bottom: 30px; 
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+.btn:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}

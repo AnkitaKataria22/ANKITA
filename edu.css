@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
+    /* background:url('tableimg.jpg') no-repeat center center/cover; */
+
+}
+.tab {
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* center {
+    display: block;
+    text-align: -webkit-center;
+} */
+
+h2{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+tbody {
+    margin-left: auto;
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+#edu {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+table {
+    background-color: transparent;
+}
+#edu td, #edu th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#edu th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#edu tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#edu tr {
+    background-color: #ddd;
+    color: #800000;
+    font-family: "Times New Roman", Times, serif;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
